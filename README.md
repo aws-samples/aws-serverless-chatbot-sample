@@ -7,7 +7,7 @@ Example code for running a Slack chatbot using AWS Lambda and Amazon API Gateway
 2. Create an API Gateway API
 3. Create a method of type: POST
 4. Select Integration Type: Lambda
-5. Select the region in which you created your Lambda function in
+5. Select the region in which you created your Lambda function
 6. Select the Lambda Function you created
 7. Click "Integration Request"
 8. At the bottom of this Page select "Add mapping Template"
