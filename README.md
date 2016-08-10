@@ -1,4 +1,4 @@
-# aws-serverless-chatbot-sample
+# AWS Serverless Chatbot Sample
 Example code for running a Slack chatbot using AWS Lambda and Amazon API Gateway. 
 
 # Getting Started
