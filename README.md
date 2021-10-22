@@ -73,5 +73,6 @@ Example code for running a Slack chatbot using AWS Lambda and Amazon API Gateway
   #set($kvTokenised = $kvPair.split("="))
  "$util.urlDecode($kvTokenised[0])" : #if($kvTokenised[1].length() > 0)"$util.urlDecode($kvTokenised[1])"#{else}""#end#if( $foreach.hasNext ),#end
 #end
+#thankyou
 }
 ```
